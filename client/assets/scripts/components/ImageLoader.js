@@ -29,7 +29,7 @@ function loadImage(url,code,callback){
     else{
         imageInfo.queue.push({code:code,callback:callback});
     }*/
-    cc.loader.load(url,function (err,tex) {
+    cc.loader.load({url:url,type:"jpg"},function (err,tex) {
         var spriteFrame = new cc.SpriteFrame(tex, cc.Rect(0, 0, tex.width, tex.height));
         callback(code,spriteFrame);
     });
@@ -47,7 +47,7 @@ function getBaseInfo(userid,callback){
         cc.vv.http.sendRequest('/base_info',{userid:userid},function(ret){
             var url = null;
             if(ret.headimgurl){
-               url = ret.headimgurl + ".jpg";
+               url = ret.headimgurl;
             }
             var info = {
                 name:ret.name,

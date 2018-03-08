@@ -5,9 +5,52 @@
             "name": "启动",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceRoot}/majiang_server/majiang_server.js",
+            // "program": "${workspaceRoot}/majiang_server/majiang_server.js",
+            "program": "${workspaceRoot}/account_server/app.js",
             "stopOnEntry": false,
-            "args": ["${workspaceRoot}/configs_local.js"],
+            "args": ["${workspaceRoot}/configs_mac.js"],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "externalConsole": false,
+            "sourceMaps": false,
+            "outDir": null
+        },
+        {
+            "name": "启动",
+            "type": "node",
+            "request": "launch",
+            // "program": "${workspaceRoot}/majiang_server/majiang_server.js",
+            "program": "${workspaceRoot}/hall_server/app.js",
+            "stopOnEntry": false,
+            "args": ["${workspaceRoot}/configs_mac.js"],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "externalConsole": false,
+            "sourceMaps": false,
+            "outDir": null
+        },
+        {
+            "name": "启动",
+            "type": "node",
+            "request": "launch",
+            // "program": "${workspaceRoot}/majiang_server/majiang_server.js",
+            "program": "${workspaceRoot}/majiang_server/appp.js",
+            "stopOnEntry": false,
+            "args": ["${workspaceRoot}/configs_mac.js"],
             "cwd": "${workspaceRoot}",
             "preLaunchTask": null,
             "runtimeExecutable": null,
