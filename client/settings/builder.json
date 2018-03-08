@@ -3,7 +3,7 @@
   "appSecret": "",
   "encryptJs": false,
   "excludeScenes": [],
-  "includeAnySDK": true,
+  "includeAnySDK": false,
   "includeSDKBox": false,
   "inlineSpriteFrames": true,
   "inlineSpriteFrames_native": true,

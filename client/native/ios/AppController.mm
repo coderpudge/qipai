@@ -219,6 +219,10 @@ static bool __isWxLogin = false;
     [super dealloc];
 }
 
++(CGFloat)getBatteryPercent
+{
+   return [[UIDevice currentDevice] batteryLevel];
+}
 
 @end
 
