@@ -1,9 +1,17 @@
 {
+  "appKey": "",
+  "appSecret": "",
+  "encryptJs": false,
   "excludeScenes": [],
-  "includeAnySDK": false,
-  "includeSdk": [
-    "anysdk"
-  ],
+  "includeAnySDK": true,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
   "orientation": {
     "landscapeLeft": true,
     "landscapeRight": true,
@@ -11,7 +19,14 @@
     "upsideDown": false
   },
   "packageName": "com.babykylin.qpgames",
+  "privateKey": "",
+  "renderMode": "0",
   "startScene": "7898c3aa-75db-4523-8b22-e60bf7d83784",
   "title": "SCMJ",
-  "webOrientation": "landscape"
+  "webOrientation": "landscape",
+  "wechatgame": {
+    "appid": "",
+    "orientation": "portrait"
+  },
+  "xxteaKey": "a5c31785-960b-47"
 }
